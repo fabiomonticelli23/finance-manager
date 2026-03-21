@@ -89,11 +89,11 @@ Explicitly excluded. Documented to prevent scope creep.
 
 | Feature | Reason |
 |---------|--------|
-| Multi-user authentication | Single-user personal tool — auth adds complexity without value |
-| Automated trade execution | Rebalancing shows suggestions only — a bug could lose real money |
+| Multi-user authentication | Single-user personal tool -- auth adds complexity without value |
+| Automated trade execution | Rebalancing shows suggestions only -- a bug could lose real money |
 | Individual stock tracking on T212 | Pies-only integration per user preference and API limitations |
 | Real-time price streaming | Daily snapshots sufficient; real-time adds massive complexity |
-| Tax reporting / tax-loss harvesting | Tax rules vary by country and change annually — black hole of complexity |
+| Tax reporting / tax-loss harvesting | Tax rules vary by country and change annually -- black hole of complexity |
 | Mobile native app | Responsive web app works on mobile browsers |
 | AI-powered insights | Regulatory minefield (financial advice); clear metrics are better |
 | Social / portfolio sharing | Privacy risk, scope creep, antithetical to self-hosted tool |
@@ -105,49 +105,49 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| INFRA-01 | — | Pending |
-| INFRA-02 | — | Pending |
-| INFRA-03 | — | Pending |
-| INFRA-04 | — | Pending |
-| INFRA-05 | — | Pending |
-| INFRA-06 | — | Pending |
-| DATA-01 | — | Pending |
-| DATA-02 | — | Pending |
-| DATA-03 | — | Pending |
-| DATA-04 | — | Pending |
-| DATA-05 | — | Pending |
-| DATA-06 | — | Pending |
-| DATA-07 | — | Pending |
-| DATA-08 | — | Pending |
-| CURR-01 | — | Pending |
-| CURR-02 | — | Pending |
-| CURR-03 | — | Pending |
-| CURR-04 | — | Pending |
-| CURR-05 | — | Pending |
-| PORT-01 | — | Pending |
-| PORT-02 | — | Pending |
-| PORT-03 | — | Pending |
-| PORT-04 | — | Pending |
-| PORT-05 | — | Pending |
-| HIST-01 | — | Pending |
-| HIST-02 | — | Pending |
-| HIST-03 | — | Pending |
-| HIST-04 | — | Pending |
-| HIST-05 | — | Pending |
-| REBL-01 | — | Pending |
-| REBL-02 | — | Pending |
-| REBL-03 | — | Pending |
-| REBL-04 | — | Pending |
-| REBL-05 | — | Pending |
-| REBL-06 | — | Pending |
-| REBL-07 | — | Pending |
-| REBL-08 | — | Pending |
+| INFRA-01 | Phase 1 | Pending |
+| INFRA-02 | Phase 1 | Pending |
+| INFRA-03 | Phase 1 | Pending |
+| INFRA-04 | Phase 1 | Pending |
+| INFRA-05 | Phase 1 | Pending |
+| INFRA-06 | Phase 1 | Pending |
+| DATA-01 | Phase 2 | Pending |
+| DATA-02 | Phase 2 | Pending |
+| DATA-03 | Phase 3 | Pending |
+| DATA-04 | Phase 3 | Pending |
+| DATA-05 | Phase 3 | Pending |
+| DATA-06 | Phase 3 | Pending |
+| DATA-07 | Phase 3 | Pending |
+| DATA-08 | Phase 3 | Pending |
+| CURR-01 | Phase 2 | Pending |
+| CURR-02 | Phase 2 | Pending |
+| CURR-03 | Phase 2 | Pending |
+| CURR-04 | Phase 2 | Pending |
+| CURR-05 | Phase 2 | Pending |
+| PORT-01 | Phase 4 | Pending |
+| PORT-02 | Phase 4 | Pending |
+| PORT-03 | Phase 4 | Pending |
+| PORT-04 | Phase 4 | Pending |
+| PORT-05 | Phase 4 | Pending |
+| HIST-01 | Phase 5 | Pending |
+| HIST-02 | Phase 5 | Pending |
+| HIST-03 | Phase 5 | Pending |
+| HIST-04 | Phase 5 | Pending |
+| HIST-05 | Phase 5 | Pending |
+| REBL-01 | Phase 6 | Pending |
+| REBL-02 | Phase 6 | Pending |
+| REBL-03 | Phase 6 | Pending |
+| REBL-04 | Phase 6 | Pending |
+| REBL-05 | Phase 6 | Pending |
+| REBL-06 | Phase 6 | Pending |
+| REBL-07 | Phase 6 | Pending |
+| REBL-08 | Phase 6 | Pending |
 
 **Coverage:**
 - v1 requirements: 37 total
-- Mapped to phases: 0
-- Unmapped: 37
+- Mapped to phases: 37
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-21*
-*Last updated: 2026-03-21 after initial definition*
+*Last updated: 2026-03-21 after roadmap creation*
